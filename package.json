@@ -1,0 +1,27 @@
+{
+  "name": "prestamofrances",
+  "version": "1.0.0",
+  "description": "Calcula un prestamo en vace al prestamo frances ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node ./index.js"
+  },
+"repository":{
+   "type": "git",
+   "url": "https://github.com/KouKiriyama03/prestamoFrances.git"
+},
+  "keywords": [
+    "préstamo",
+    "node",
+    "express",
+    "handlebars"
+  ],
+  "author": "Franklin Villeda",
+  "license": "ISC",
+    "bugs":{
+      "url": "https://github.com/KouKiriyama03/prestamoFrances/issues"
+    },
+    "homepage":"https://github.com/KouKiriyama03/prestamoFrances#readme"
+  
+}

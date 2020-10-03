@@ -25,8 +25,6 @@ app.get("/", (req, res, next) => {
     res.render("formulario_prestamo");
 });
 
-
-
 app.post("/prestamo", (req, res, next) => {
   // Asignación por destructuring
   // https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/Destructuring_assignment

@@ -9,6 +9,7 @@ exports.calcularMetodoFrances = (capital, tasaInteres, plazo) => {
   let tasaInteresDecimal = tasaInteres / 100;
   const cuotas = [];
 
+    
   // Transformar los años en meses
   plazo = Math.round(plazo * 12);
 

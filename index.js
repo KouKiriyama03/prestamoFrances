@@ -22,7 +22,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // Información sobre los verbos HTTP
 // https://developer.mozilla.org/es/docs/Web/HTTP/Methods
 app.get("/", (req, res, next) => {
-  res.render("formulario_prestamo");
+    res.render("formulario_prestamo");
 });
 
 app.post("/prestamo", (req, res, next) => {
